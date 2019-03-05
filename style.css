@@ -1,0 +1,519 @@
+.nomargin {
+	margin: 0px;
+}
+
+.custombackground {
+	background-image: url("images/bg_light.png");
+}
+
+
+
+
+
+/*Navbar*/
+
+@font-face {
+  font-family: aniron;
+  src: url(fonts/aniron/anirm___.ttf);
+}
+
+.aniron {
+	font-family: aniron;
+}
+
+.anironsmall {
+	font-size: 1.4rem;
+}
+
+.nav-item {
+	font-family: aniron;
+}
+
+.nav-item.nav-link {
+	border-left: 1px solid #FFF;
+	padding: 0rem .5rem;
+	margin: 5px 0px !important;
+	/*border: 1px solid #FFF;  to test*/
+	padding-left: 1.1rem !important;
+	padding-right: 1rem !important;
+}
+
+
+	/*Remove bar in front of first item*/
+.nav-item.active {
+	border-left: 0px solid #FFF;
+}
+
+.lastnav {
+	margin-right: 0rem !important;
+}
+
+.navbar {
+	background-color: #FF5400 !important;
+}
+
+.nav-item.active {
+	padding: 0rem !important;
+	margin-right: 1.8rem !important;
+    border-bottom: 2px solid;
+}
+
+
+/*Slider*/
+
+
+
+
+@font-face {
+  font-family: party_business;
+  src: url(fonts/party-business/partybusiness.ttf);
+}
+
+
+
+
+.carousel-caption {
+	font-family: party_business;
+}
+
+
+
+.carousel-caption h5 {
+	font-size: 4.1rem;
+	position: relative;
+	right: 2rem;
+	bottom: 8rem;
+}
+
+.carousel-caption p {
+	font-size: 2.5rem;
+	position: relative;
+	right: 7rem;
+	bottom: 8rem;
+}
+
+
+.caps {
+	font-size: 6rem;
+}
+
+
+.carousel {
+/*	width: 75%;*/
+	margin: auto;
+}
+
+.carousel-inner {
+/*	min-height: 50px;*/
+}
+
+.carousel-item {
+/*	max-height: 350px;
+*//*	margin:-3% 0;*/
+}
+
+
+
+
+
+
+
+/*Pills*/
+
+.party {
+	font-family: party_business;
+}
+
+
+.secondarytitle {
+	font-size: 0.8em;
+}
+
+.badge-pill {
+	font-size: 1.2em;
+	justify-content: center;
+		margin-bottom: 2rem;
+}
+
+.pills {
+	display: flex;
+	justify-content: center;
+}
+
+.padding15 {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+
+
+
+
+
+/*Portraits*/
+
+
+
+.card-deck p {
+	font-family: party_business;
+	font-size: 2rem;
+}
+
+.cardportrait {
+	background-color: black !important;
+}
+
+
+
+.cardportrait {
+	border-width: 6px;
+	color: black;
+	border-color: black !important;
+}
+
+.border-dark p {
+	color: white
+}
+
+.border-dark h3 {
+	font-family: party_business;
+	font-size: 2rem;
+}
+
+
+.overlay {
+	background-color: rgba(256, 256, 256, 0.4);
+	height: 0px;
+	z-index: 2;
+}
+
+
+.text {
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: lighter;
+/*	margin-top: 0px;*/
+}
+
+h1 {
+	color: white;
+	font-size: 1.5rem;
+	margin-top: 220px;
+}
+
+.bubble {
+	background-color: rgba(255,255,255,0.8);
+	max-height: 90px;
+/*	width: 220px;*/
+	width: 82%;
+	margin: auto; 
+    position: relative;
+    top: -285px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #C0C0C0;
+    border-width: 3px;
+    padding: 10px 0px;
+}
+
+/*h3 {
+	color: black;
+	font-size: 1rem;
+	font-weight: 200;
+	padding: 0px 30px;
+}*/
+
+.dead h3 {
+	color: #FF5400;
+	font-size: 4rem;
+	position: relative;
+	bottom: 30rem;
+}
+
+.dead .bubble {
+	display: none;
+}
+
+.number {
+	color: #f48e41;
+}
+
+
+
+.overlay:hover {
+	background-color: rgba(255,255,255,0);
+}
+
+.overlay:hover .bubble {
+	display: none;
+}
+
+.overlay:hover .text {
+	position: relative;
+ 	font-size: 2rem;
+ 	padding-top: 100px;
+}
+
+.cardportrait img {
+	opacity: 0.7;
+	background-color: white !important;
+}
+
+.deadcard img {
+	opacity: 0.3;
+}
+
+
+.cardportrait h1 {
+	font-family: party_business;
+	font-size: 4rem;
+}
+
+/*.overlaydead:hover .deadcard h3 {
+	position: relative;
+ 	font-size: 0em;
+ 	padding-top: 100px;
+ 	display: none;
+}*/
+
+
+
+.overlay:hover .text {
+	position: relative;
+ 	font-size: 2rem;
+ 	padding-top: 100px;
+}
+
+.overlay:hover .dead h3 {
+		color: #FF5400;
+	font-size: 4rem;
+	position: relative;
+	bottom: 18rem;
+}
+
+
+
+.overlaydead {
+	background-color: rgba(256, 256, 256, 0.4);
+	height: 0px;
+	z-index: 2;
+}
+
+.orangeline {
+	font-family: party_business;
+	font-size: 8rem !important;
+	color: #FF5400 !important;
+	position: relative;
+	bottom: 12rem;
+	left: 6.5rem;
+}
+
+
+
+/*Captured*/
+
+
+.darkbackground {
+	background-image: url("images/bg_dark.png");
+}
+
+
+/*coin:*/
+
+
+.image-cropper {
+    width: 80px;
+    min-height: 75px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+.coin {
+  display: inline;
+  margin: -1px;
+  margin-left: 0%; /*centers the image*/
+  padding-top: 10%;
+  padding-right: 10%;
+  justify-content: right !important;
+}
+
+
+
+ @media only screen and (max-width: 768px) {
+  .coin {
+  	display: none;
+
+ 
+  }
+}
+
+ @media only screen and (max-width: 990px) {
+  .coin {
+  	width: 100%;
+  	 margin-top: 10px;
+  	margin-left: 10px;
+ 
+  }
+}
+
+
+ @media only screen and (max-width: 768px) {
+  .image-cropper {
+  	display: inline-block;
+ /*   padding-right: 0px;
+    margin-left: 20px
+    padding-top: 0px;
+	margin-left: 30%;*/
+  }
+}
+
+.white {
+	color: white !important;
+}
+
+@font-face {
+  font-family: tengwar;
+  src: url(fonts/tengwar_annatar/tngani.ttf);
+}
+
+.tengwar {
+	font-family: tengwar;
+}
+
+.symbols {
+	padding: 10px;
+	color: #FF5400;
+}
+
+.centered {
+	text-align: center !important;
+		justify-content: center !important;
+}
+
+h2 {
+	padding-top: 15px;
+}
+
+.symbols {
+	padding-left: 2rem !important;
+	padding-right: 2rem;
+}
+
+.orange {
+	color: 	#FF5400;
+}
+
+.symbols2 {
+	padding-left: 1rem !important;
+	padding-right: 1rem;
+}
+
+.trans {
+	background-image: url("images/bg_light.png") !important;
+}
+
+.danger {
+	 text-decoration: underline !important;
+  	text-decoration-color: #FF5400 !important;
+}
+
+.likebutton {
+	justify-content: left;
+}
+
+
+#hunters h2 {
+	/*margin-left: 0px%;*/
+}
+
+.hunterphoto {
+    margin-left: 5px;
+
+}
+
+.left {
+/*	margin-left: -23.1% !important;*/
+/*	padding-left: -10% !important;*/
+}
+
+.eighty {
+	width: 80%;
+}
+
+.margeleft10 {
+	margin-left: 10%;
+}
+
+#ring {
+	width: 100%;
+	padding-bottom: 20px;
+}
+
+
+#join {
+	width: 100%;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.toohigh {
+	padding-top: 10%;
+}
+
+.armyphoto {
+	width: 100%;
+	margin: 0px 10px;
+	height: auto;
+	max-height: 250px;
+}
+
+
+#contact h2 {
+	margin-top: 20px;
+/*	margin-left: -345% !important;*/
+}
+
+.mbcard {
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.centerform {
+	margin-left: 10% !important;
+}
+
+.anironvsmall {
+	font-size: 0.9rem !important;
+	padding-bottom: 5px;
+}
+
+.mappic {
+	width
+	: 87%;
+}
+.formpad {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+#contact {
+	padding-bottom: 20px;
+}
+
+.bigparty {
+	font-size: 2rem;
+}
+
+.medparty {
+	font-size: 1.3rem;
+}
+
+.orangebutton {
+	background-color: #FF5400;
+}
+
+
